@@ -3,13 +3,16 @@ import "./App.css";
 
 
 function App() {
-  let [counter,setCounter]=useState(0)
+  const [counter,setCounter]=useState(0)
 
   const addValue =()=>{
     // console.log(`Value Added ${Math.random()}`);
     // counter+=1
     if (counter <20){
-    setCounter(counter+1)}
+    setCounter(counter+1)
+    // setCounter(counter=>counter+1)
+  
+  }
   }
 
   const removeValue =()=>{
