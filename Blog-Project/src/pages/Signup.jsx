@@ -1,10 +1,10 @@
 import React from "react";
-import { Singup as SingupComponent } from "../components";
+import { Signup as SignupComponent } from "../components";
 
 function Singup() {
   return (
     <div>
-      <SingupComponent />
+      <SignupComponent />
     </div>
   );
 }

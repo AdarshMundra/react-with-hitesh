@@ -4,16 +4,16 @@ import Header from "./Header/Header";
 import LogoutBtn from "./Header/LogoutBtn";
 import Logo from "./Logo";
 import RTE from "./RTE";
-import Singup from "./Signup";
+import Signup from "./Signup";
 import Login from "./Login";
 import Button from "./Button";
-import { Select } from "./Select";
-import { Input } from "./Input";
+import Select from "./Select";
+import Input from "./Input";
 // import Singup from "../pages/Singup";
-import { PostCard } from "../components/PostCard";
+import PostCard from "./PostCard";
 import PostForm from "./PostForm/PostForm";
 
-import { AuthLayout } from "../components/AuthLayout";
+import AuthLayout from "./AuthLayout";
 
 export {
   Header,
@@ -28,6 +28,6 @@ export {
   Button,
   Select,
   Input,
-  Singup,
+  Signup,
   Login,
 };
